@@ -12,6 +12,11 @@
 		8153C37321F23649004C2616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8153C37121F23649004C2616 /* Main.storyboard */; };
 		8153C37521F2364A004C2616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8153C37421F2364A004C2616 /* Assets.xcassets */; };
 		8153C37821F2364A004C2616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8153C37621F2364A004C2616 /* LaunchScreen.storyboard */; };
+		81EB554821F8F4CE00358436 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554721F8F4CE00358436 /* FocusSquare.swift */; };
+		81EB554A21F8F4DF00358436 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554921F8F4DF00358436 /* FocusSquareSegment.swift */; };
+		81EB554D21F8F9A700358436 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554C21F8F9A700358436 /* Utilities.swift */; };
+		81EB554F21F9074000358436 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554E21F9074000358436 /* VirtualObjectARView.swift */; };
+		81EB555221F9089300358436 /* VRObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB555121F9089300358436 /* VRObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		8153C37421F2364A004C2616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8153C37721F2364A004C2616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8153C37921F2364A004C2616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EB554721F8F4CE00358436 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		81EB554921F8F4DF00358436 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		81EB554C21F8F9A700358436 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		81EB554E21F9074000358436 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
+		81EB555121F9089300358436 /* VRObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +65,35 @@
 			isa = PBXGroup;
 			children = (
 				8153C36D21F23649004C2616 /* AppDelegate.swift */,
+				81EB554B21F8F53800358436 /* Focus Square */,
 				8153C36F21F23649004C2616 /* ViewController.swift */,
+				81EB554E21F9074000358436 /* VirtualObjectARView.swift */,
+				81EB555021F9088100358436 /* VRObjects */,
+				81EB554C21F8F9A700358436 /* Utilities.swift */,
 				8153C37121F23649004C2616 /* Main.storyboard */,
 				8153C37421F2364A004C2616 /* Assets.xcassets */,
 				8153C37621F2364A004C2616 /* LaunchScreen.storyboard */,
 				8153C37921F2364A004C2616 /* Info.plist */,
 			);
 			path = "Home Painter";
+			sourceTree = "<group>";
+		};
+		81EB554B21F8F53800358436 /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				81EB554721F8F4CE00358436 /* FocusSquare.swift */,
+				81EB554921F8F4DF00358436 /* FocusSquareSegment.swift */,
+			);
+			name = "Focus Square";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		81EB555021F9088100358436 /* VRObjects */ = {
+			isa = PBXGroup;
+			children = (
+				81EB555121F9089300358436 /* VRObject.swift */,
+			);
+			path = VRObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EB554F21F9074000358436 /* VirtualObjectARView.swift in Sources */,
 				8153C37021F23649004C2616 /* ViewController.swift in Sources */,
+				81EB554821F8F4CE00358436 /* FocusSquare.swift in Sources */,
 				8153C36E21F23649004C2616 /* AppDelegate.swift in Sources */,
+				81EB555221F9089300358436 /* VRObject.swift in Sources */,
+				81EB554D21F8F9A700358436 /* Utilities.swift in Sources */,
+				81EB554A21F8F4DF00358436 /* FocusSquareSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

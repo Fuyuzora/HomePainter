@@ -10,10 +10,11 @@ import UIKit
 import ARKit
 import SceneKit
 
-class ViewController: UIViewController, ARSessionObserver{
-
+class ViewController: UIViewController{
+    
+    @IBOutlet weak var sceneView: ARSCNView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }

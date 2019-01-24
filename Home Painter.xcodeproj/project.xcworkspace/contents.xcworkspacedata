@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Home Painter.xcodeproj">
+      location = "group:/Users/Run.Ting.Wan@ibm.com/projects/swift/HomePainter/Home Painter/Focus Square">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
