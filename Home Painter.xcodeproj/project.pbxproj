@@ -17,7 +17,7 @@
 		81EB554D21F8F9A700358436 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554C21F8F9A700358436 /* Utilities.swift */; };
 		81EB554F21F9074000358436 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB554E21F9074000358436 /* VirtualObjectARView.swift */; };
 		81EB555221F9089300358436 /* VRObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB555121F9089300358436 /* VRObject.swift */; };
-		81ED14DD21FB676400987E7C /* VirtualObjectSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14DC21FB676400987E7C /* VirtualObjectSegment.swift */; };
+		81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		81EB554C21F8F9A700358436 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		81EB554E21F9074000358436 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
 		81EB555121F9089300358436 /* VRObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRObject.swift; sourceTree = "<group>"; };
-		81ED14DC21FB676400987E7C /* VirtualObjectSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSegment.swift; sourceTree = "<group>"; };
+		81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				81EB555121F9089300358436 /* VRObject.swift */,
-				81ED14DC21FB676400987E7C /* VirtualObjectSegment.swift */,
+				81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */,
 			);
 			path = VRObjects;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 				8153C36E21F23649004C2616 /* AppDelegate.swift in Sources */,
 				81EB555221F9089300358436 /* VRObject.swift in Sources */,
 				81EB554D21F8F9A700358436 /* Utilities.swift in Sources */,
-				81ED14DD21FB676400987E7C /* VirtualObjectSegment.swift in Sources */,
+				81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */,
 				81EB554A21F8F4DF00358436 /* FocusSquareSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

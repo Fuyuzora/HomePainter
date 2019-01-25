@@ -1,5 +1,5 @@
 //
-//  VirtualObjectSegment.swift
+//  VirtualObjectLoader.swift
 //  Home Painter
 //
 //  Created by Robert Wan on 2019-01-25.
