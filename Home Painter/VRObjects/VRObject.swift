@@ -213,6 +213,17 @@ extension virtualObject {
             return virtualObject(url: url)
         }
     }()
+    
+    // Returns a virtualObject if one exists as an ansestor of the provided node
+    static func existingObjectContainingNode(_ node:SCNNode) -> virtualObject? {
+        if let virtualObjRoot = node as? virtualObject {
+            return virtualObjRoot
+        }
+        
+        guard let parent = node.parent else {return nil}
+        
+        return existingObjectContainingNode(parent)
+    }
 }
 
 extension Collection where Element == Float, Index == Int {
