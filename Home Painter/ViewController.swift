@@ -12,7 +12,12 @@ import SceneKit
 
 class ViewController: UIViewController{
     
-    @IBOutlet weak var sceneView: ARSCNView!
+    @IBOutlet weak var sceneView: VirtualObjectView!
+    @IBOutlet weak var addObjectButton: UIButton!
+    @IBOutlet weak var blurView: UIVisualEffectView!
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
+    var focusSquare = FocusSquare()
     
     override func viewDidLoad() {
         super.viewDidLoad()
