@@ -74,9 +74,9 @@
 				81EB554B21F8F53800358436 /* Focus Square */,
 				81EB555021F9088100358436 /* VRObjects */,
 				81ED14DF21FE54F300987E7C /* Other view controllers */,
-				8153C37121F23649004C2616 /* Main.storyboard */,
 				8153C37421F2364A004C2616 /* Assets.xcassets */,
 				81EB554C21F8F9A700358436 /* Utilities.swift */,
+				8153C37121F23649004C2616 /* Main.storyboard */,
 				8153C37621F2364A004C2616 /* LaunchScreen.storyboard */,
 				8153C37921F2364A004C2616 /* Info.plist */,
 			);
