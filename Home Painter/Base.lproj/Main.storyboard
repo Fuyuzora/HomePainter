@@ -119,7 +119,7 @@
         <!--Status View Controller Scene-->
         <scene sceneID="8q0-MR-x26">
             <objects>
-                <viewController id="W0b-ZI-oNo" userLabel="Status View Controller Scene" sceneMemberID="viewController">
+                <viewController id="W0b-ZI-oNo" userLabel="Status View Controller Scene" customClass="StatusViewController" customModule="Home_Painter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pe7-9Q-Ylt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="103"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,6 +158,9 @@
                                 <rect key="frame" x="313" y="36" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="restartExperience:" destination="W0b-ZI-oNo" eventType="touchUpInside" id="cpd-hC-CHN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,6 +172,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yoj-bm-Z1i"/>
                     </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="9jh-CV-nxi" id="BsE-hS-p1W"/>
+                        <outlet property="messagePanel" destination="uHy-wo-bVO" id="bPE-a8-HdU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oIl-vM-rC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
