@@ -19,6 +19,7 @@
 		81EB555221F9089300358436 /* VRObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB555121F9089300358436 /* VRObject.swift */; };
 		81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */; };
 		81ED14E121FE555100987E7C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14E021FE555100987E7C /* StatusViewController.swift */; };
+		81ED14E321FFB41600987E7C /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14E221FFB41600987E7C /* VirtualObjectSelection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		81EB555121F9089300358436 /* VRObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRObject.swift; sourceTree = "<group>"; };
 		81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
 		81ED14E021FE555100987E7C /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		81ED14E221FFB41600987E7C /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				81ED14E021FE555100987E7C /* StatusViewController.swift */,
+				81ED14E221FFB41600987E7C /* VirtualObjectSelection.swift */,
 			);
 			path = "Other view controllers";
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				81EB554821F8F4CE00358436 /* FocusSquare.swift in Sources */,
 				8153C36E21F23649004C2616 /* AppDelegate.swift in Sources */,
 				81EB555221F9089300358436 /* VRObject.swift in Sources */,
+				81ED14E321FFB41600987E7C /* VirtualObjectSelection.swift in Sources */,
 				81EB554D21F8F9A700358436 /* Utilities.swift in Sources */,
 				81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */,
 				81ED14E121FE555100987E7C /* StatusViewController.swift in Sources */,
