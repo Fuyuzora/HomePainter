@@ -1,4 +1,4 @@
-# HomePainter
+# Home Painter
 An iOS app that helps you design and share your brand new room with AR technology with built-in and custom 3D models
 ## Objectives:
 1. Place virtual furniture in the room
