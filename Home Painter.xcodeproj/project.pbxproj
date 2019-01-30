@@ -20,6 +20,7 @@
 		81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */; };
 		81ED14E121FE555100987E7C /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14E021FE555100987E7C /* StatusViewController.swift */; };
 		81ED14E321FFB41600987E7C /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14E221FFB41600987E7C /* VirtualObjectSelection.swift */; };
+		81ED14E622024FD200987E7C /* ThresholdPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED14E522024FD200987E7C /* ThresholdPanGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		81ED14DC21FB676400987E7C /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
 		81ED14E021FE555100987E7C /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		81ED14E221FFB41600987E7C /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
+		81ED14E522024FD200987E7C /* ThresholdPanGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				8153C36D21F23649004C2616 /* AppDelegate.swift */,
 				8153C36F21F23649004C2616 /* ViewController.swift */,
 				81EB554E21F9074000358436 /* VirtualObjectARView.swift */,
+				81ED14E522024FD200987E7C /* ThresholdPanGesture.swift */,
 				81EB554B21F8F53800358436 /* Focus Square */,
 				81EB555021F9088100358436 /* VRObjects */,
 				81ED14DF21FE54F300987E7C /* Other view controllers */,
@@ -202,6 +205,7 @@
 				81ED14DD21FB676400987E7C /* VirtualObjectLoader.swift in Sources */,
 				81ED14E121FE555100987E7C /* StatusViewController.swift in Sources */,
 				81EB554A21F8F4DF00358436 /* FocusSquareSegment.swift in Sources */,
+				81ED14E622024FD200987E7C /* ThresholdPanGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
